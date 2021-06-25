@@ -3,7 +3,7 @@ class Project
   
   def initialize(title) #takes a title on initialization, accessible through an attribute reader
     @title = title
-    @backers = []
+    @backers = [] #initializes with a @backers attribute, an empty array
   end
   
   def add_backer(backer)
