@@ -8,7 +8,7 @@ class Project
   
   def add_backer(backer)
     @backers << backer
-    backer.back_project(self) # add project to backer's backedc projects array
+   # backer.back_project(self) # add project to backer's backedc projects array
   end
   
 end
